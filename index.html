@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <!-- Side Nav Bar Starts -->
+      <div class="side-navbar">
+        <h2>
+          <img src="img/ed-logo.png" id="logo" /><span>E-Dashboard</span>
+          <span id="right" class="material-symbols-outlined" > menu_open </span>
+        </h2>
+        <div class="snb-top">
+          <ul>
+            <li>
+              <button id="acct"><img src="img/letter-a.png" id="company">
+                Alphalinx inc.<span id="right" class="material-symbols-outlined" >
+                  stat_minus_1
+                </span>
+              </button>
+            </li>
+            <li><button><span class="material-symbols-outlined" >
+              widgets
+            </span>Dashboard</button></li>
+            <li><button><span class="material-symbols-outlined" >
+              add_chart
+            </span>My Business</button></li>
+            <li><button><span  class="material-symbols-outlined" >
+              request_quote
+            </span>Financial Resources</button></li>
+            <li><button><span  class="material-symbols-outlined" >
+              unsubscribe
+            </span>Mailbox</button></li>
+            <li><button><span  class="material-symbols-outlined" >
+              airplane_ticket
+            </span>Visa Center</button></li>
+            <li><button><span  class="material-symbols-outlined" >
+              quiz
+            </span>Compliance</button></li>
+          </ul>
+        </div>
+        <div class="snb-bottom">
+          <ul>
+            <li>
+              <button>
+                <span class="material-symbols-outlined"> notifications </span
+                >Notifications
+              </button>
+            </li>
+            <li>
+              <button id="mv-align">
+                <span  class="material-symbols-outlined"> help </span> Help
+                Center<span id="help" class="material-symbols-outlined">
+                  more_vert
+                </span>
+              </button>
+            </li>
+            <li>
+              <button><img src="img/letter-j.png" id="company">
+                <span id="snb-email">Jacobe James
+                <p>Jacobejames@gmail.com</p></span><span id="right" class="material-symbols-outlined options">
+                  more_vert
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Side Nav Bar Ends -->
+      <!-- Dashboard Starts -->
+      <div class="db-div">
+        <h2>Good morning, <span>Emily! &#128075;</span></h2>
+        <p>Welcome back!</p>
+        <!-- up to date div starts -->
+        <div class="up-to-date">
+          <!-- <img src="img/uptodate.png" id="over-img" /> -->
+          <p id="p1">
+            <img src="img/uptodate.png" alt="" id="over-img" />
+            All your <b>documents</b> are <br /><span>up to date!</span
+            ><img src="img/sparks.png" id="sparks" />
+          </p>
+
+          <hr />
+          <p>
+            You have 3 upcoming document <br />updates in January.<span
+              class="material-symbols-outlined"
+              id="right-expand"
+            >
+              expand_circle_right
+            </span>
+          </p>
+        </div>
+        <!-- up to date div ends -->
+
+        <!-- graph starts -->
+        <div class="graph">
+          <img src="img/graph-img.png" alt="" />
+          <ul>
+            <li class="list1">Incomplete</li>
+            <li class="list2">Pending approval</li>
+            <li class="list3">Approved</li>
+          </ul>
+        </div>
+        <!-- graph ends -->
+
+        <!-- mailbox starts -->
+        <div class="mailbox">
+          <p id="title">Mailbox <a href="#">View all</a></p>
+          <p id="sub-title">Check on your all your mail in one go.</p>
+          <ul id="ul1">
+            <li>
+              <img src="img/tick.png" alt="" /><br />New <br /><span>23</span>
+            </li>
+            <img src="img/Line.png" alt="" />
+            <li>
+              <img src="img/tick.png" alt="" /><br />Requested <br /><span
+                >23</span
+              >
+            </li>
+            <img src="img/Line.png" alt="" />
+            <li class="remove">
+              <img src="img/tick.png" alt="" /><br />Action taken <br /><span
+                >23</span
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- mailbox ends -->
+
+        <!-- legal compliance starts -->
+        <div class="legal-compliance">
+          <p id="title">Legal compliance <a href="#">View all</a></p>
+          <p id="sub-title">Keep your requirements up to date.</p>
+          <ul id="ul2">
+            <li>
+              <img src="img/tick.png" alt="" /><br />Reminders <br /><span
+                >23</span
+              >
+            </li>
+            <img src="img/Line.png" alt="" />
+            <li>
+              <img src="img/tick.png" alt="" /><br />In progress <br /><span
+                >23</span
+              >
+            </li>
+            <img src="img/Line.png" alt="" />
+            <li class="remove">
+              <img src="img/tick.png" alt="" /><br />To approve <br /><span
+                >23</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- legal compliance ends -->
+
+      <!-- Dashboard Ends -->
+
+      <!-- Table div Starts -->
+      <div class="tables-div">
+        <div class="tasks">
+          <p id="title">Tasks <a href="#">View all</a></p>
+          <div class="table-pages">
+            <a href="#" id="my-task">My tasks</a>
+            <a href="#">Overdue</a>
+            <a href="#">Assigned by me</a>
+          </div>
+          <div id="task-table">
+            <table>
+              <tr>
+                <th>Task</th>
+                <th>Category</th>
+                <th>Due date</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>Update Tax Document for Alphalinx...</td>
+                <td>Compliance</td>
+                <td>23/11/23</td>
+                <td><button>Request sent</button></td>
+              </tr>
+              <tr>
+                <td>Update KYC document</td>
+                <td>Compliance</td>
+                <td>23/11/23</td>
+                <td><button>Request sent</button></td>
+              </tr>
+              <tr>
+                <td>Add clearer photo for visa application</td>
+                <td>Visa center</td>
+                <td>23/11/23</td>
+                <td><button>Pending action</button></td>
+              </tr>
+              <tr>
+                <td>Document not clear: please add new file</td>
+                <td>Visa center</td>
+                <td>23/11/23</td>
+                <td><button>Pending action</button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="payment-history">
+          <p id="title">Payment history <a href="#">View all</a></p>
+          <div id="task-table">
+            <table>
+              <tr>
+                <th>Transaction ID</th>
+                <th>Date of transaction</th>
+                <th>Amount</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td id="tbl-ids">#764657758</td>
+                <td>23/01/19</td>
+                <td>$5.99</td>
+                <td>Mailbox</td>
+              </tr>
+              <tr>
+                <td id="tbl-ids">#764657758</td>
+                <td>23/01/19</td>
+                <td>$99</td>
+                <td>Registration (upgrade)</td>
+              </tr>
+              <tr>
+                <td id="tbl-ids">#764657758</td>
+                <td>23/01/19</td>
+                <td>$5.99</td>
+                <td>Mailbox</td>
+              </tr>
+              <tr>
+                <td id="tbl-ids">#764657758</td>
+                <td>19/01/19</td>
+                <td>$5.99</td>
+                <td>Mailbox</td>
+              </tr>
+              <tr>
+                <td id="tbl-ids">#764657758</td>
+                <td>09/01/19</td>
+                <td>$5.99</td>
+                <td>Mailbox</td>
+              </tr>
+              <tr>
+                <td id="tbl-ids">#764657758</td>
+                <td>23/12/18</td>
+                <td>$5.99</td>
+                <td>Mailbox</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Table div Ends -->
+    </div>
+  </body>
+</html>
